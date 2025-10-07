@@ -6,6 +6,10 @@ from main_functions import load_combined_data, plot_lines, footnote  # import he
 
 st.set_page_config(page_title="Resultados", page_icon="📊", layout="wide")
 
+# Inicializar session_state
+if 'uploaded_files_data' not in st.session_state:
+    st.session_state.uploaded_files_data = {}
+
 st.title("Resultados da Análise")
 combined_df = load_combined_data(st.session_state.uploaded_files_data)
 
