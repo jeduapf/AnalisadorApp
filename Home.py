@@ -24,4 +24,4 @@ st.markdown("---")
 st.subheader("Exemplo do modelo MAR722")
 st.image("modelo.jpeg", caption="Analisador MAR722 - Megabras", use_container_width=True)
     
-footnote("cartoon_me.png", "José ALVES", "2025", "1.0.0", "https://www.jeduapf.github.io")
+footnote("cartoon_me.png", "José ALVES", "2025", "1.0.0", "https://jeduapf.github.io/")
